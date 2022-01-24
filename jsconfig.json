@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2020",
+    "checkJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "types": ["node", "@types/jest"]
+  },
+  "exclude": ["node_modules"],
+  "typeAcquisition": {
+    "include": []
+  }
+}
