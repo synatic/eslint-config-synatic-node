@@ -1,5 +1,5 @@
 {
-  "name": "lint-and-code-style",
+  "name": "@synatic/eslint-config-synatic-node",
   "version": "1.0.0",
   "description": "Global repo for how code should be linted and styled",
   "main": "lib",
@@ -20,7 +20,9 @@
     "lint",
     "prettier",
     "code-style",
-    "style"
+    "style",
+    "eslint",
+    "eslintconfig"
   ],
   "author": "Ryan Kotzen",
   "license": "UNLICENSED",
@@ -48,5 +50,18 @@
     "eslint-plugin-sonarjs": "^0.11.0",
     "jest": "^27.4.7",
     "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "8.x.x",
+    "eslint-config-google": "0.14.x",
+    "eslint-config-prettier": "8.x.x",
+    "eslint-plugin-import": "2.x.x",
+    "eslint-plugin-jest": "26.x.x",
+    "eslint-plugin-jsdoc": "37.x.x",
+    "eslint-plugin-node": "11.x.x",
+    "eslint-plugin-prettier": "4.x.x",
+    "eslint-plugin-promise": "6.x.x",
+    "eslint-plugin-security": "1.x.x",
+    "eslint-plugin-sonarjs": "0.11.x"
   }
 }

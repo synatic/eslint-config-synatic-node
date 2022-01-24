@@ -1,0 +1,9 @@
+test
+lib-examples
+coverage
+.eslintignore
+.eslintrc.json
+.gitignore
+.prettierignore
+.prettierrc.json
+.jsconfig.json
