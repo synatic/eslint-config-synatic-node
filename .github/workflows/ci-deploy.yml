@@ -1,0 +1,43 @@
+name: "NPM Publish"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - name: Install Dependencies
+        run: |
+          npm install --ignore-scripts
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_SYNATIC}}
+      - name: Run linting
+        run: npm run lint
+      - name: Run tests
+        run: npm run test-ci
+
+  deploy:
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - run: |
+          npm publish --access restricted
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN_SYNATIC}}
