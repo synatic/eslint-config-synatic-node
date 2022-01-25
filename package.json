@@ -11,7 +11,8 @@
     "test-ci": "jest",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
-    "prettier": "prettier . --write"
+    "prettier": "prettier . --write",
+    "copy": "node copy-to-lib.js && npm run prettier && npm run lint-fix"
   },
   "repository": {
     "type": "git",

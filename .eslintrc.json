@@ -34,7 +34,8 @@
       "rules": {
         "no-unused-vars": "off",
         "node/no-unpublished-require": "off",
-        "node/no-unpublished-import": "off"
+        "node/no-unpublished-import": "off",
+        "jsdoc/require-jsdoc": "off"
       },
       "env": {
         "jest/globals": true
