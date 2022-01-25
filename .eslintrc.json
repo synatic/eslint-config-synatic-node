@@ -46,6 +46,7 @@
     "max-len": ["off"],
     "require-jsdoc": ["off"],
     "valid-jsdoc": "off",
-    "promise/always-return": "off"
+    "promise/always-return": "off",
+    "jest/no-commented-out-tests": "off"
   }
 }
