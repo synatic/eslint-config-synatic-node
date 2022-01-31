@@ -49,6 +49,7 @@
     "valid-jsdoc": "off",
     "promise/always-return": "off",
     "sonarjs/no-duplicate-string": "warn",
-    "sonarjs/cognitive-complexity": "warn"
+    "sonarjs/cognitive-complexity": "warn",
+    "prettier/prettier": "error"
   }
 }
