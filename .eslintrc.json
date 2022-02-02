@@ -38,7 +38,8 @@
         "sonarjs/cognitive-complexity": "off",
         "security/detect-object-injection": "off",
         "security/detect-non-literal-fs-filename": "off",
-        "no-invalid-this": "off"
+        "no-invalid-this": "off",
+        "jsdoc/require-returns": "off"
       }
     }
   ],
@@ -51,6 +52,7 @@
     "sonarjs/no-duplicate-string": "warn",
     "sonarjs/cognitive-complexity": "warn",
     "prettier/prettier": "error",
-    "security/detect-object-injection": "off"
+    "security/detect-object-injection": "off",
+    "no-invalid-this": "warn"
   }
 }
