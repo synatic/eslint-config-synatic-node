@@ -19,13 +19,14 @@ To add the shared configuration to your project you can do the following:
 1. run `npm i -D @synatic/eslint-config-synatic-node` in your project
 2. create a `.eslintrc.json` file in your project
 3. Add the following code:
-    ```{
-    "env": {},
-    "extends": ["@synatic/eslint-config-synatic-node"],
-    "globals": {},
-    "parserOptions": {},
-    "overrides": [],
-    "rules": {}
+    ```
+    {
+        "env": {},
+        "extends": ["@synatic/eslint-config-synatic-node"],
+        "globals": {},
+        "parserOptions": {},
+        "overrides": [],
+        "rules": {}
     }
     ```
 4. If you would prefer to use a different config from the base one, simply replace the `extends` in the above example with your desired one.
@@ -34,12 +35,19 @@ To add the shared configuration to your project you can do the following:
 7. Ensure your package.json has the correct engine section, e.g.:
 
 ```
-    ...
     "engines": {
         "node": ">=14.0.0",
         "npm": ">=6.0.0"
     },
-    ...
+```
+
+8. Ensure your package.json has the required scripts:
+
+```
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "lint-errors": "eslint . --quiet",
+    "prettier": "prettier . --write"
 ```
 
 ## Configs available
