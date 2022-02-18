@@ -53,6 +53,7 @@
     "sonarjs/cognitive-complexity": "warn",
     "prettier/prettier": "error",
     "security/detect-object-injection": "off",
-    "no-invalid-this": "warn"
+    "no-invalid-this": "warn",
+    "promise/no-callback-in-promise": "off"
   }
 }
