@@ -39,18 +39,18 @@
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^27.4.0",
-    "eslint": "8.9.0",
+    "eslint": "^8.9.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "26.1.1",
-    "eslint-plugin-jsdoc": "37.9.2",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-jsdoc": "^37.9.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.11.0",
-    "jest": "27.5.1",
+    "jest": "^27.5.1",
     "prettier": "^2.5.1"
   },
   "peerDependencies": {
