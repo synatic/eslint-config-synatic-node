@@ -1,6 +1,6 @@
 {
   "name": "@synatic/eslint-config-synatic-node",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Global repo for how code should be linted and styled",
   "main": "lib",
   "directories": {
@@ -27,7 +27,7 @@
     "eslintconfig"
   ],
   "author": "Ryan Kotzen",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/synatic/lint-and-code-style/issues"
   },
