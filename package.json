@@ -27,7 +27,7 @@
     "eslintconfig"
   ],
   "author": "Ryan Kotzen",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/synatic/lint-and-code-style/issues"
   },
