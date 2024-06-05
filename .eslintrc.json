@@ -23,7 +23,7 @@
   "plugins": ["jsdoc", "prettier", "node", "sonarjs", "promise", "security", "import"],
   "globals": {},
   "parserOptions": {
-    "ecmaVersion": 2019,
+    "ecmaVersion": 2022,
     "sourceType": "module"
   },
   "overrides": [

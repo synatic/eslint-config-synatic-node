@@ -2,7 +2,6 @@ const fs = require('fs/promises');
 
 /**
  * Copies the .eslintrc.json file to the /lib/index.js file
- *
  * @returns {Promise<string>} message when done
  */
 async function copy() {
