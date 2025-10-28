@@ -1,6 +1,6 @@
 {
   "name": "@synatic/eslint-config-synatic-node",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Global repo for how code should be linted and styled",
   "main": "lib",
   "directories": {
