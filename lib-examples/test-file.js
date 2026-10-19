@@ -19,12 +19,10 @@ const metric = {
 
 /**
  * @param {import('./types').SomeType} [item] some item
- * @returns {Promise<{item:object,metric:*}>} a result
+ * @returns {Promise<{item:object,metric:unknown}>} a result
  */
 function doWork(item) {
-    return new Promise((resolve) => {
-        resolve({item, metric});
-    });
+    return Promise.resolve({item, metric});
 }
 
 doWork()
